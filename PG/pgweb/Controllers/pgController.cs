@@ -22,6 +22,7 @@ namespace pgweb.Controllers
 
         public IActionResult Index()
         {
+            var pglist=db.pgs;
             return View();
         }
 

@@ -1,0 +1,8 @@
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.csproj.AssemblyReference.cache
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.GeneratedMSBuildEditorConfig.editorconfig
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.AssemblyInfoInputs.cache
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.AssemblyInfo.cs
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.csproj.CoreCompileInputs.cache
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.MvcApplicationPartsAssemblyInfo.cache
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.RazorAssemblyInfo.cache
+/home/coder/project/workspace/userRegister/Register/obj/Debug/net6.0/Register.RazorAssemblyInfo.cs
