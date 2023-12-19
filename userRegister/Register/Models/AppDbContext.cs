@@ -9,7 +9,7 @@ namespace Register.Models
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOption <AppDbContext> Options): base(Options)
+        public AppDbContext(DbContextOptions <AppDbContext> Options): base(Options)
         {
 
         }
