@@ -21,7 +21,8 @@ namespace Register.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            empl = db.Registers;
+            return View(empl);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
