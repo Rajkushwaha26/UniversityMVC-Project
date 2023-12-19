@@ -11,5 +11,6 @@ namespace pgweb.Models
         public ApplicationDbContext(DbContextOptions <ApplicationDbContext> Options):base(Options){
 
         }
+        public virtual DbSet<pg>pgs {set;get;}
     }
 }

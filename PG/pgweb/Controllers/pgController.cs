@@ -13,22 +13,22 @@ namespace pgweb.Controllers
    
     public class pgController : Controller
     {
-        private readonly ApplicationDbContext db;
-        public pgController(ApplicationDbContext context){
-            this.db=context;
-        }
+        // private readonly ApplicationDbContext db;
+        // public pgController(ApplicationDbContext context){
+        //     this.db=context;
+        // }
 
  
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        // public IActionResult Index()
+        // {
+        //     return View();
+        // }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
+        // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        // public IActionResult Error()
+        // {
+        //     return View("Error!");
+        // }
     }
 }
