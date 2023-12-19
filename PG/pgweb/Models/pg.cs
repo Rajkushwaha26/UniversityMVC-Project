@@ -7,7 +7,7 @@ namespace pgweb.Models
 {
     public class pg
     {
-        public int PgId { get; set; }
+        public int pgId { get; set; }
         public string Name { get; set; }
         public int RomeNo { get; set; }
         public string Rent { get; set; }
