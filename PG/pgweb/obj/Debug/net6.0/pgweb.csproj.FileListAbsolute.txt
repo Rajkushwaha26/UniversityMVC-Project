@@ -1,0 +1,8 @@
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.csproj.AssemblyReference.cache
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.GeneratedMSBuildEditorConfig.editorconfig
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.AssemblyInfoInputs.cache
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.AssemblyInfo.cs
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.csproj.CoreCompileInputs.cache
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.MvcApplicationPartsAssemblyInfo.cache
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.RazorAssemblyInfo.cache
+/home/coder/project/workspace/PG/pgweb/obj/Debug/net6.0/pgweb.RazorAssemblyInfo.cs
