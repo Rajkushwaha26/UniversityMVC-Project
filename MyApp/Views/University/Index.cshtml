@@ -7,7 +7,7 @@
         <th>@Html.DisplayNameFor(m=>m.RegNo)</th>
         <th>@Html.DisplayNameFor(m=>m.Name)</th>
         <th>@Html.DisplayNameFor(m=>m.City)</th>
-        <th></th>
+        <th>ActionLink</th>
     </tr>
     <tbody>
         @foreach(var item in Model){
@@ -16,10 +16,12 @@
                 <td>@item.RegNo</td>
                 <td>@item.Name</td>
                 <td>@item.City</td>
-                <td><a asp-controller="University" asp-action="Edit" asp-route-id="@item.Id" style="danger"/>Edit&nbsp</td>
-                <td><a asp-controller="University" asp-action="Delete" asp-route-id="@item.Id"/>Delete&nbsp</td>
+                <td><a asp-controller="University" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning"/>Edit&nbsp
+                <a asp-controller="University" asp-action="Delete" asp-route-id="@item.Id" class ="btn btn-danger"/>Delete&nbsp</td>
             </tr>
         }
     </tbody>
 </table>
-<a asp-controller="University" asp-action="Add Data" asp-route-id="@item.Id"/>Add
+<div>
+<a asp-controller="University" asp-action="Create" asp-route-id="Add Data" />Add
+</div>

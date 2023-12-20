@@ -1,5 +1,5 @@
 @model MyApp.Models.University
-<h3>Edit the user Detail</h3>
+<h3>Delete the user Detail</h3>
 @using (Html.BeginForm()){
     <div>
         @Html.HiddenFor(m=>m.Id)
@@ -17,5 +17,5 @@
         @Html.EditorFor(m=>m.City)
         
     </div>
-    <input type="submit" value="Delete Detail"/>
+    <input type="submit" value="Delete Detail" class="btn btn-danger"/>
 }
