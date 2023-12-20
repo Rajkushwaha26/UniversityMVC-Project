@@ -1,0 +1,19 @@
+@model MyApp.Models.University
+<h3>Edit the user Detail</h3>
+@using (Html.BeginForm()){
+    <div>
+        @Html.HiddenFor(m=>m.Id)
+    </div>
+    <div>
+        @Html.HiddenFor(m=>m.RegNo)
+        @Html.EditorFor(m=>m.RegNo)
+    </div>
+    <div>
+        @Html.HiddenFor(m=>m.Name)
+        @Html.EditorFor(m=>m.Name)
+    </div>
+    <div>
+        @Html.HiddenFor(m=>m.Id)
+        <input type="submit" value="Edit Detail"/>
+    </div>
+}

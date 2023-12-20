@@ -21,8 +21,48 @@ namespace MyApp.Controllers
 
         public IActionResult Index()
         {
-            var emplist = db.
+            var emplist = db.Universitys;
+            return View(emplist);
+        }
+
+        public IActionResult Create()
+        {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(University U){
+            db.Universitys.Add(U);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id){
+            var unilist=db.Universitys.Find(id);
+            if(unilist!=null){
+                db.Universitys.Remove(unilist);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }else{
+                return View();
+            }
+            
+        }
+
+        public IActionResult Edit(int id){
+            var emp = db.Universitys.FirstorDefault(e=>e.Id==id);
+            if(emp!=null){
+                return View(emp);
+            }else{
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Edit(University newObj){
+            db.Update(newObj);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

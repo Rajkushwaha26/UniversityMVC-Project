@@ -12,5 +12,6 @@ namespace MyApp.Models
         public ApplicationDbContext(DbContextOptions <ApplicationDbContext>options): base(options){
 
         }
+        public virtual DbSet<University>Universitys{get;set;}
     }
 }

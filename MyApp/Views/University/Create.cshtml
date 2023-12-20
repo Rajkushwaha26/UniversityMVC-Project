@@ -1,0 +1,17 @@
+@model MyApp.Models.University
+@using (Html.BeginForm()){
+    <div>
+        @Html.DisplayNameFor(m=>m.RegNo)
+        @Html.EditorFor(m=>m.RegNo)
+    </div>
+        <div>
+        @Html.DisplayNameFor(m=>m.Name)
+        @Html.EditorFor(m=>m.Name)
+    </div>
+        <div>
+        @Html.DisplayNameFor(m=>m.City)
+        @Html.EditorFor(m=>m.City)
+    </div>
+<input type="submit" value="Add Data"/>
+<br>
+}
