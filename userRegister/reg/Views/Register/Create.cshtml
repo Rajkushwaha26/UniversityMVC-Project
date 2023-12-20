@@ -1,0 +1,21 @@
+@model reg.Models.Register;
+<h2>Create Student Details</h2>
+@using (Html.BeginForm()){
+    <div>
+        @Html.DisplayNameFor(m=>m.Name)
+        @Html.EditorFor(m=>m.Name)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m=>m.Email)
+        @Html.EditorFor(m=>m.Email)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m=>m.Age)
+        @Html.EditorFor(m=>m.Age)
+    </div>
+    <div>
+        @Html.DisplayNameFor(m=>m.Password)
+        @Html.EditorFor(m=>m.Password)
+    </div>
+    <input type="submit" value="Add User"/>
+}

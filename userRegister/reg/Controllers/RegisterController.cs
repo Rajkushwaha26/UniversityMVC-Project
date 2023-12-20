@@ -25,6 +25,19 @@ namespace reg.Controllers
             return View(empl);
         }
 
+
+        [HttpGet]
+        public IActionResult Create(){
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Register register){
+            db.Registers.Add(register);
+            db.SaveChanges();
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
