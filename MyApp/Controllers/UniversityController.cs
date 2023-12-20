@@ -50,7 +50,7 @@ namespace MyApp.Controllers
         }
 
         public IActionResult Edit(int id){
-            var emp = db.Universitys.FirstorDefault(e=>e.Id==id);
+            var emp = db.Universitys.FirstOrDefault(e=>e.Id==id);
             if(emp!=null){
                 return View(emp);
             }else{

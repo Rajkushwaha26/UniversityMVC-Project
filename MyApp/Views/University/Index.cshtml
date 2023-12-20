@@ -15,7 +15,8 @@
                 <td>@item.RegNo</td>
                 <td>@item.Name</td>
                 <td>@item.City</td>
-                <td><input type="button" </td>
+                <td><a asp-controller="University" asp-action="Edit" asp-route-id="@item.Id"/>Edit</td>
+                <td><a asp-controller="University" asp-action="Delete" asp-route-id="@item.Id"/>Delete</td>
             </tr>
         }
     </tbody>
