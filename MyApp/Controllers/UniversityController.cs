@@ -21,6 +21,7 @@ namespace MyApp.Controllers
 
         public IActionResult Index()
         {
+            var emplist = db.
             return View();
         }
 
