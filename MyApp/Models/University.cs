@@ -11,5 +11,6 @@ namespace MyApp.Models
         public string? RegNo { get; set; }
         public string? Name { get; set; }
         public string? City { get; set; }
+        public string? FamousCourse { get; set; }
     }
 }
